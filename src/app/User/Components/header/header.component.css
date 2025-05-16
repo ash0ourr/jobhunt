@@ -1,0 +1,45 @@
+/*header middle*/
+.header_middle{
+  background-color: var(--primary-color) ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: fit-content;
+}
+
+
+.header_middle h1 , .header_middle h1 a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: var(--light_text_color);
+
+
+}
+.search-container {
+  margin-top: 30px;
+  height: 40px;
+  display: flex;
+  border: 1px solid var(--light_text_color);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-container input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 200px;
+}
+
+.search-container button {
+  background-color: var(--primary-color_accent);
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+}

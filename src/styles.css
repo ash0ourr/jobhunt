@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
+  background-color: var(--background-color);
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+
+:root {
+
+  --secondary-color: #2ecc71;
+  --accent-color: #e74c3c;
+
+
+  /*User*/
+  --primary-color: #007FED;
+  --primary-color_accent: #007bff;
+  --button_color : #F26400;
+  --background-color: #F6F5FF;
+
+
+
+  /*Admin*/
+  --admin_main : #411A1A;
+  --admin_accent_color :  #232323;
+
+  /*Company Side */
+  --company_main : #003768 ;
+  --company_accent_color: #366580;
+
+
+  /*Test*/
+  --dark_text-color: #333;
+  --light_text_color : #cccccc ;
+}
+
+
